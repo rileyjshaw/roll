@@ -40,7 +40,7 @@ physicsWorld.defaultContactMaterial.restitution = 0.25;
  */
 const SOUND_NAMES = ['one', 'two', 'three', 'four', 'five', 'six'];
 const sound = new Howl({
-	src: ['/audio/sounds.ogg', '/audio/sounds.m4a', '/audio/sounds.mp3', '/audio/sounds.ac3'],
+	src: ['./audio/sounds.ogg', './audio/sounds.m4a', './audio/sounds.mp3', './audio/sounds.ac3'],
 	sprite: {
 		five: [0, 707.3696145124716],
 		four: [2000, 671.5873015873015],
