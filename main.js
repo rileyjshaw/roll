@@ -466,6 +466,7 @@ function throwDice() {
 }
 // Call throwDice() whenever the viewport is clicked or space is pressed.
 window.addEventListener('click', throwDice);
+window.addEventListener('touchstart', throwDice);
 window.addEventListener('keydown', e => {
 	if (e.code === 'Space') {
 		throwDice();
